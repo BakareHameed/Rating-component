@@ -1,0 +1,11 @@
+.hero{
+    height: 50vh;
+    width: 30vw;
+    background-color: hsl(213, 19%, 18%);
+}
+
+.star{
+    height: 5vh;
+    width: 5vh;
+    background-color: hsla(213, 34%, 35%, 0.377);
+}
