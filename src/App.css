@@ -1,6 +1,4 @@
 .hero{
-    height: 50vh;
-    width: 30vw;
     background-color: hsl(213, 19%, 18%);
 }
 
@@ -8,4 +6,31 @@
     height: 5vh;
     width: 5vh;
     background-color: hsla(213, 34%, 35%, 0.377);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    color: hsl(217, 12%, 63%);
+}
+
+.star:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.active{
+    height: 5vh;
+    width: 5vh;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.lblue{
+        background-color: hsla(213, 34%, 35%, 0.377);
 }
